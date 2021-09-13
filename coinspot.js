@@ -260,7 +260,7 @@ function coinspot(key, secret, readonly) {
    * @returns buyorders - array containing your coin open buy orders
    * @returns sellorders - array containing your coin open buy orders
    */
-  self.coinOpenTransactions = async (cointype,) => {
+  self.coinOpenTransactions = async (cointype) => {
     return await request(`/api/ro/my/transactions/${cointype}/open`, {}, cointype, false);
   };
 
