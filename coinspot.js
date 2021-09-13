@@ -288,7 +288,7 @@ function coinspot(key, secret, readonly) {
    * @readonly
    * @returns payments - array containing one object for each completed referral payment
    */
-  self.affiliatePayments = async () => {
+  self.referralPayments = async () => {
     return await request('/api/ro/my/referralpayments', {}, {}, false);
   };
 
