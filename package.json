@@ -1,0 +1,22 @@
+{
+  "name": "coinspot-sdk",
+  "version": "1.0.0",
+  "description": "Unoficial coinspot sdk",
+  "main": "coinspot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coinspot",
+    "crypto",
+    "bitcoin",
+    "dodge",
+    "sdk",
+    "coin"
+  ],
+  "author": "Oskar Klosowski",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
